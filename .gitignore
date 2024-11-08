@@ -1,0 +1,38 @@
+
+# .gitignore
+# Python/Django specific
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.log
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Database
+db.sqlite3
+db.sqlite3-journal
+
+# Django stuff
+*.pot
+*.pyc
+local_settings.py
+media/
+staticfiles/
+
+# VS Code (if you use it)
+.vscode/
+
+# PyCharm (if you use it)
+.idea/
+
+# Mac specific
+.DS_Store
+
+# Environment variables
+.env
